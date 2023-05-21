@@ -1,0 +1,124 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: cover;
+    font-family: 'Syne', sans-serif;
+    padding: 80px;
+
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Syne', sans-serif;
+    color: white;
+    border-radius: 50%;
+}
+
+.image-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    border-radius: 50%;
+
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Syne', sans-serif;
+
+}
+
+.link {
+    min-width: 50% !important;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .link {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+
+
+.descricao-container {
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 600px;
+    font-family: 'Syne', sans-serif;
+    color: white;
+}
+
+.h3-container {
+    color: white;
+    font-family: 'Syne', sans-serif;
+}
+
+.h5-container {
+    font-family: 'Syne', sans-serif;
+    color: white;
+
+}
+
+.button-container {
+
+    font-family: 'Syne', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.container-wpp {
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+    color: white;
+
+}
+
+.button-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
